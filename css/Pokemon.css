@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+#contenedor_cards{
+    width: 80vw;
+    background-color: bisque;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 220px;
+    height: 220px;
+    background-color: green;
+    border: 1px solid white;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 10px 10px 5px 0px black;
+}
+.card img{
+    width: 120px;
+    height: 120px;
+    filter: drop-shadow(0 -6mm 4mm red);
+}
